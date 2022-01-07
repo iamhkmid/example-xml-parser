@@ -1,6 +1,6 @@
-import xml2js from "xml2js";
+const xml2js = require("xml2js");
 
-const xml = ``;
+const xml = `<test></test>`;
 
 xml2js.parseString(xml, (err, result) => {
   if (err) {
